@@ -2,10 +2,13 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { callIcon, mailIcon, addIcon } from "../utility/commonStaticData";
+import HeaderNav from "./header-nav";
 import Logo from "./logo";
+
 const Resume = () => {
   return (
     <>
+      <HeaderNav />
       <h1 className="myHeading">my Resume</h1>
       <div className="myResume">
         <Row>

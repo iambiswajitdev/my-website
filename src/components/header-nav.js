@@ -17,7 +17,7 @@ const HeaderNav = () => {
               //* change this button to a user icon
             }
             <button className="header_profile_icon" onClick={changeDrawerState}>
-              click me
+              Manu
             </button>
           </li>
         </ul>

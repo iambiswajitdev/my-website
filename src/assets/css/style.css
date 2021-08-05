@@ -23,6 +23,25 @@ li {
   position: fixed;
   height: 100vh;
 }
+.header_profile_icon {
+  display: none;
+  border: none;
+  background-color: #f06429;
+  padding: 3px 10px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 17px;
+  margin-top: 0;
+  font-weight: 600;
+}
+@media only screen and (min-width: 479px) and (max-width: 1023px) {
+  .sideBar {
+    display: none;
+  }
+  .header_profile_icon {
+    display: block;
+  }
+}
 .home {
   width: 100%;
   padding: 20px;
