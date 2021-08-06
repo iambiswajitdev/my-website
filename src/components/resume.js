@@ -45,6 +45,9 @@ const Resume = () => {
           <Col lg={9} xs={12}>
             <div className="workExprince">
               <h2>work experience</h2>
+              <p>
+                <strong>Frontend Developer</strong>
+              </p>
             </div>
           </Col>
           <Col lg={3} xs={12}></Col>

@@ -3,7 +3,7 @@ import { BrowserRouter, Switch } from "react-router-dom";
 import { FrontLayout, AppRouter } from "./routerUtility";
 import Home from "../components/home";
 import Resume from "../components/resume";
-import Settings from "../components/settings";
+import Contact from "../components/contact";
 
 const Router = () => {
   return (
@@ -18,9 +18,9 @@ const Router = () => {
         />
         <AppRouter
           layout={FrontLayout}
-          path="/settings"
+          path="/contact"
           exact
-          component={Settings}
+          component={Contact}
         />
       </Switch>
     </BrowserRouter>

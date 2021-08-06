@@ -16,7 +16,7 @@ const Sidebar = () => {
   const manuItem = [
     { manu: "about me", icon: studentIcon, route: "/" },
     { manu: "Resume", icon: planIcon, route: "/resume" },
-    { manu: "Contact Me", icon: settingIcon, route: "/settings" },
+    { manu: "Contact Me", icon: settingIcon, route: "/contact" },
   ];
 
   return (
